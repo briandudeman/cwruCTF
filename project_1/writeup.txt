@@ -1,0 +1,1 @@
+Use a -3 Caesar cipher on message.txt,Then ls the files directory, chaining grep into it (or just looking at the list), and finally decoding the text in that file
