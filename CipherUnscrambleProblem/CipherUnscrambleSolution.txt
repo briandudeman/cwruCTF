@@ -1,0 +1,7 @@
+Solution:
+
+You first need to read the text I give with the ciphered flag, which states "DO try your best to decode this key: ".
+The word DO is made to look like that for a reason, that is what the flag was ciphered by.
+More specifically, the first letter of the Caesar Ciphered flag is shifted by 4 (since D is the 4th letter) and the next letter is shifted by 15 (since O is the 15th letter).
+Once you uncipher that part, all that is left is the Caesar Cipher, which was shifted by 1826 (CWRU founding year).
+From there, you should have the actual flag, which is CASEWesternReserveUCiphered
